@@ -1,0 +1,163 @@
+[12-Aug-2015 10:23:23 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in C:\Program Files\Zend\MediaFire\htdocs\RHEss\installer\registration.php on line 163
+[12-Aug-2015 11:09:22 UTC] PHP Fatal error:  Class 'AuthProviderExtraDetails' not found in C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\plugins\orangehrmOpenidAuthenticationPlugin\lib\form\AuthProviderExtraDetailsForm.php on line 56
+[12-Aug-2015 11:11:59 UTC] Empty module and/or action after parsing the URL "/webres_554af33274f2b9.68269152/orangehrmAdminPlugin/css/viewEducationSuccess.css" (/).
+[12-Aug-2015 11:12:23 UTC] Empty module and/or action after parsing the URL "/webres_554af33274f2b9.68269152/js/jquery/jquery.form" (/).
+[12-Aug-2015 11:12:33 UTC] Empty module and/or action after parsing the URL "/webres_554af33274f2b9.68269152/js/jquery/jquery.form" (/).
+[12-Aug-2015 11:12:45 UTC] Empty module and/or action after parsing the URL "/webres_554af33274f2b9.68269152/js/jquery/jquery.form" (/).
+[12-Aug-2015 11:12:54 UTC] Empty module and/or action after parsing the URL "/webres_554af33274f2b9.68269152/js/jquery/jquery.form" (/).
+[12-Aug-2015 11:13:16 UTC] Empty module and/or action after parsing the URL "/webres_554af33274f2b9.68269152/js/jquery/jquery.form" (/).
+[12-Aug-2015 11:13:46 UTC] Empty module and/or action after parsing the URL "/webres_554af33274f2b9.68269152/js/jquery/jquery.form" (/).
+[12-Aug-2015 11:13:59 UTC] Empty module and/or action after parsing the URL "/webres_554af33274f2b9.68269152/js/jquery/jquery.form" (/).
+[12-Aug-2015 11:14:04 UTC] Empty module and/or action after parsing the URL "/webres_554af33274f2b9.68269152/js/jquery/jquery.form" (/).
+[12-Aug-2015 11:14:18 UTC] Empty module and/or action after parsing the URL "/webres_554af33274f2b9.68269152/js/jquery/jquery.form" (/).
+08/12/15 11:39:49,647 [2408] ERROR filter.ExceptionCatcherFilter - Uncaught Exception: exception 'InvalidArgumentException' with message 'Widget "Username" does not exist.' in C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\lib\vendor\symfony\lib\form\sfForm.class.php:1049
+Stack trace:
+#0 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\apps\orangehrm\modules\auth\templates\loginSuccess.php(153): sfForm->offsetGet('Username')
+#1 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(3851): require('C:\Program File...')
+#2 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(3910): sfPHPView->renderFile('C:\Program File...')
+#3 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(979): sfPHPView->render()
+#4 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(966): sfExecutionFilter->executeView('auth', 'login', 'Success', Array)
+#5 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(934): sfExecutionFilter->handleView(Object(sfFilterChain), Object(loginAction), 'Success')
+#6 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfExecutionFilter->execute(Object(sfFilterChain))
+#7 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\lib\vendor\symfony\lib\filter\sfCommonFilter.class.php(29): sfFilterChain->execute()
+#8 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfCommonFilter->execute(Object(sfFilterChain))
+#9 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\plugins\orangehrmCorePlugin\lib\filter\orangehrmPostExecutionFilter.php(22): sfFilterChain->execute()
+#10 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): orangehrmPostExecutionFilter->execute(Object(sfFilterChain))
+#11 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\apps\orangehrm\lib\filter\ModuleFilter.php(56): sfFilterChain->execute()
+#12 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): ModuleFilter->execute(Object(sfFilterChain))
+#13 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\plugins\orangehrmCorePlugin\lib\authorization\filter\ohrmAuthorizationFilter.php(46): sfFilterChain->execute()
+#14 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): ohrmAuthorizationFilter->execute(Object(sfFilterChain))
+#15 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\apps\orangehrm\lib\filter\SessionInfoFetcherFilter.php(67): sfFilterChain->execute()
+#16 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): SessionInfoFetcherFilter->execute(Object(sfFilterChain))
+#17 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\apps\orangehrm\lib\filter\OrangeI18NFilter.php(58): sfFilterChain->execute()
+#18 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): OrangeI18NFilter->execute(Object(sfFilterChain))
+#19 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\apps\orangehrm\lib\filter\ExceptionCatcherFilter.php(26): sfFilterChain->execute()
+#20 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): ExceptionCatcherFilter->execute(Object(sfFilterChain))
+#21 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(995): sfFilterChain->execute()
+#22 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfRenderingFilter->execute(Object(sfFilterChain))
+#23 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(665): sfFilterChain->execute()
+#24 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(2352): sfController->forward('auth', 'login')
+#25 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\lib\vendor\symfony\lib\util\sfContext.class.php(170): sfFrontWebController->dispatch()
+#26 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\web\index.php(22): sfContext->dispatch()
+#27 {main}
+08/12/15 11:39:49,750 [2408] ERROR filter.ExceptionCatcherFilter - Uncaught Exception: exception 'InvalidArgumentException' with message 'Widget "Username" does not exist.' in C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\lib\vendor\symfony\lib\form\sfForm.class.php:1049
+Stack trace:
+#0 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\apps\orangehrm\modules\auth\templates\loginSuccess.php(153): sfForm->offsetGet('Username')
+#1 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(3851): require('C:\Program File...')
+#2 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(3910): sfPHPView->renderFile('C:\Program File...')
+#3 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(979): sfPHPView->render()
+#4 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(966): sfExecutionFilter->executeView('auth', 'login', 'Success', Array)
+#5 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(934): sfExecutionFilter->handleView(Object(sfFilterChain), Object(loginAction), 'Success')
+#6 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfExecutionFilter->execute(Object(sfFilterChain))
+#7 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\lib\vendor\symfony\lib\filter\sfCommonFilter.class.php(29): sfFilterChain->execute()
+#8 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfCommonFilter->execute(Object(sfFilterChain))
+#9 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\plugins\orangehrmCorePlugin\lib\filter\orangehrmPostExecutionFilter.php(22): sfFilterChain->execute()
+#10 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): orangehrmPostExecutionFilter->execute(Object(sfFilterChain))
+#11 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\apps\orangehrm\lib\filter\ModuleFilter.php(56): sfFilterChain->execute()
+#12 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): ModuleFilter->execute(Object(sfFilterChain))
+#13 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\plugins\orangehrmCorePlugin\lib\authorization\filter\ohrmAuthorizationFilter.php(46): sfFilterChain->execute()
+#14 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): ohrmAuthorizationFilter->execute(Object(sfFilterChain))
+#15 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\apps\orangehrm\lib\filter\SessionInfoFetcherFilter.php(67): sfFilterChain->execute()
+#16 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): SessionInfoFetcherFilter->execute(Object(sfFilterChain))
+#17 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\apps\orangehrm\lib\filter\OrangeI18NFilter.php(58): sfFilterChain->execute()
+#18 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): OrangeI18NFilter->execute(Object(sfFilterChain))
+#19 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\apps\orangehrm\lib\filter\ExceptionCatcherFilter.php(26): sfFilterChain->execute()
+#20 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): ExceptionCatcherFilter->execute(Object(sfFilterChain))
+#21 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(995): sfFilterChain->execute()
+#22 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfRenderingFilter->execute(Object(sfFilterChain))
+#23 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(665): sfFilterChain->execute()
+#24 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\lib\vendor\symfony\lib\filter\sfBasicSecurityFilter.class.php(94): sfController->forward('auth', 'login')
+#25 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\lib\vendor\symfony\lib\filter\sfBasicSecurityFilter.class.php(55): sfBasicSecurityFilter->forwardToLoginAction()
+#26 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#27 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(995): sfFilterChain->execute()
+#28 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfRenderingFilter->execute(Object(sfFilterChain))
+#29 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(665): sfFilterChain->execute()
+#30 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\apps\orangehrm\lib\filter\ExceptionCatcherFilter.php(40): sfController->forward('core', 'displayMessage')
+#31 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): ExceptionCatcherFilter->execute(Object(sfFilterChain))
+#32 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(995): sfFilterChain->execute()
+#33 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfRenderingFilter->execute(Object(sfFilterChain))
+#34 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(665): sfFilterChain->execute()
+#35 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(2352): sfController->forward('auth', 'login')
+#36 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\lib\vendor\symfony\lib\util\sfContext.class.php(170): sfFrontWebController->dispatch()
+#37 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\web\index.php(22): sfContext->dispatch()
+#38 {main}
+08/12/15 11:39:49,804 [2408] ERROR filter.ExceptionCatcherFilter - Uncaught Exception: exception 'InvalidArgumentException' with message 'Widget "Username" does not exist.' in C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\lib\vendor\symfony\lib\form\sfForm.class.php:1049
+Stack trace:
+#0 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\apps\orangehrm\modules\auth\templates\loginSuccess.php(153): sfForm->offsetGet('Username')
+#1 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(3851): require('C:\Program File...')
+#2 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(3910): sfPHPView->renderFile('C:\Program File...')
+#3 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(979): sfPHPView->render()
+#4 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(966): sfExecutionFilter->executeView('auth', 'login', 'Success', Array)
+#5 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(934): sfExecutionFilter->handleView(Object(sfFilterChain), Object(loginAction), 'Success')
+#6 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfExecutionFilter->execute(Object(sfFilterChain))
+#7 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\lib\vendor\symfony\lib\filter\sfCommonFilter.class.php(29): sfFilterChain->execute()
+#8 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfCommonFilter->execute(Object(sfFilterChain))
+#9 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\plugins\orangehrmCorePlugin\lib\filter\orangehrmPostExecutionFilter.php(22): sfFilterChain->execute()
+#10 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): orangehrmPostExecutionFilter->execute(Object(sfFilterChain))
+#11 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\apps\orangehrm\lib\filter\ModuleFilter.php(56): sfFilterChain->execute()
+#12 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): ModuleFilter->execute(Object(sfFilterChain))
+#13 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\plugins\orangehrmCorePlugin\lib\authorization\filter\ohrmAuthorizationFilter.php(46): sfFilterChain->execute()
+#14 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): ohrmAuthorizationFilter->execute(Object(sfFilterChain))
+#15 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\apps\orangehrm\lib\filter\SessionInfoFetcherFilter.php(67): sfFilterChain->execute()
+#16 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): SessionInfoFetcherFilter->execute(Object(sfFilterChain))
+#17 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\apps\orangehrm\lib\filter\OrangeI18NFilter.php(58): sfFilterChain->execute()
+#18 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): OrangeI18NFilter->execute(Object(sfFilterChain))
+#19 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\apps\orangehrm\lib\filter\ExceptionCatcherFilter.php(26): sfFilterChain->execute()
+#20 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): ExceptionCatcherFilter->execute(Object(sfFilterChain))
+#21 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(995): sfFilterChain->execute()
+#22 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfRenderingFilter->execute(Object(sfFilterChain))
+#23 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(665): sfFilterChain->execute()
+#24 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\lib\vendor\symfony\lib\filter\sfBasicSecurityFilter.class.php(94): sfController->forward('auth', 'login')
+#25 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\lib\vendor\symfony\lib\filter\sfBasicSecurityFilter.class.php(55): sfBasicSecurityFilter->forwardToLoginAction()
+#26 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#27 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(995): sfFilterChain->execute()
+#28 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfRenderingFilter->execute(Object(sfFilterChain))
+#29 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(665): sfFilterChain->execute()
+#30 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\apps\orangehrm\lib\filter\ExceptionCatcherFilter.php(40): sfController->forward('core', 'displayMessage')
+#31 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): ExceptionCatcherFilter->execute(Object(sfFilterChain))
+#32 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(995): sfFilterChain->execute()
+#33 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfRenderingFilter->execute(Object(sfFilterChain))
+#34 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(665): sfFilterChain->execute()
+#35 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\lib\vendor\symfony\lib\filter\sfBasicSecurityFilter.class.php(94): sfController->forward('auth', 'login')
+#36 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\lib\vendor\symfony\lib\filter\sfBasicSecurityFilter.class.php(55): sfBasicSecurityFilter->forwardToLoginAction()
+#37 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#38 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(995): sfFilterChain->execute()
+#39 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfRenderingFilter->execute(Object(sfFilterChain))
+#40 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(665): sfFilterChain->execute()
+#41 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\apps\orangehrm\lib\filter\ExceptionCatcherFilter.php(40): sfController->forward('core', 'displayMessage')
+#42 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): ExceptionCatcherFilter->execute(Object(sfFilterChain))
+#43 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(995): sfFilterChain->execute()
+#44 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfRenderingFilter->execute(Object(sfFilterChain))
+#45 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(665): sfFilterChain->execute()
+#46 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(2352): sfController->forward('auth', 'login')
+#47 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\lib\vendor\symfony\lib\util\sfContext.class.php(170): sfFrontWebController->dispatch()
+#48 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\web\index.php(22): sfContext->dispatch()
+#49 {main}
+[12-Aug-2015 11:39:49 UTC] Too many forwards have been detected for this request.
+[12-Aug-2015 12:01:26 UTC] Empty module and/or action after parsing the URL "/webres_554af33274f2b9.68269152/" (/).
+[12-Aug-2015 12:01:26 UTC] PHP Fatal error:  Uncaught exception 'sfStopException' in C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\lib\vendor\symfony\lib\filter\sfBasicSecurityFilter.class.php:96
+Stack trace:
+#0 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\lib\vendor\symfony\lib\filter\sfBasicSecurityFilter.class.php(55): sfBasicSecurityFilter->forwardToLoginAction()
+#1 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#2 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(995): sfFilterChain->execute()
+#3 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfRenderingFilter->execute(Object(sfFilterChain))
+#4 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(665): sfFilterChain->execute()
+#5 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\ in C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\lib\vendor\symfony\lib\filter\sfBasicSecurityFilter.class.php on line 96
+[19-Aug-2015 08:27:37 UTC] Empty module and/or action after parsing the URL "/webres_554af33274f2b9.68269152/themes/default/images/login/logouvt.png" (/).
+[19-Aug-2015 08:27:38 UTC] PHP Fatal error:  Uncaught exception 'sfStopException' in C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\lib\vendor\symfony\lib\filter\sfBasicSecurityFilter.class.php:96
+Stack trace:
+#0 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\lib\vendor\symfony\lib\filter\sfBasicSecurityFilter.class.php(55): sfBasicSecurityFilter->forwardToLoginAction()
+#1 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#2 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(995): sfFilterChain->execute()
+#3 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfRenderingFilter->execute(Object(sfFilterChain))
+#4 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(665): sfFilterChain->execute()
+#5 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\ in C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\lib\vendor\symfony\lib\filter\sfBasicSecurityFilter.class.php on line 96
+[19-Aug-2015 08:28:03 UTC] Empty module and/or action after parsing the URL "/webres_554af33274f2b9.68269152/themes/default/images/login/logouvt.png" (/).
+[19-Aug-2015 08:28:03 UTC] PHP Fatal error:  Uncaught exception 'sfStopException' in C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\lib\vendor\symfony\lib\filter\sfBasicSecurityFilter.class.php:96
+Stack trace:
+#0 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\lib\vendor\symfony\lib\filter\sfBasicSecurityFilter.class.php(55): sfBasicSecurityFilter->forwardToLoginAction()
+#1 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfBasicSecurityFilter->execute(Object(sfFilterChain))
+#2 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(995): sfFilterChain->execute()
+#3 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(1031): sfRenderingFilter->execute(Object(sfFilterChain))
+#4 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\cache\orangehrm\prod\config\config_core_compile.yml.php(665): sfFilterChain->execute()
+#5 C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\ in C:\Program Files\Zend\MediaFire\htdocs\RHEss\symfony\lib\vendor\symfony\lib\filter\sfBasicSecurityFilter.class.php on line 96

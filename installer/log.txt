@@ -1,0 +1,48 @@
+Client Info
+
+User Agent : Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36
+Remote Address : 127.0.0.1
+
+Server Info
+
+Host : localhost:88
+PHP Version : 5.4.16
+Server : Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/0.9.8x
+Admin : admin@example.com
+
+Document Root : C:/Program Files/Zend/MediaFire/htdocs
+ROOT_PATH : C:\Program Files\Zend\MediaFire\htdocs\RHEss
+
+OrangeHRM Installation Log
+
+Wed, 12 Aug 2015 10:22:05 +0000 DB Creation - Starting
+Wed, 12 Aug 2015 10:22:05 +0000 DB Creation - Done
+Wed, 12 Aug 2015 10:22:05 +0000 DB Creation - No Errors
+Wed, 12 Aug 2015 10:22:08 +0000 Fill Data Phase 1 - Starting
+Wed, 12 Aug 2015 10:22:08 +0000 Fill Data Phase 1 - Connected to the DB Server
+Wed, 12 Aug 2015 10:22:08 +0000 Fill Data Phase 1 - Selected the DB
+Wed, 12 Aug 2015 10:22:08 +0000 Fill Data Phase 1 - Reading DB Script
+Wed, 12 Aug 2015 10:22:08 +0000 Fill Data Phase 1 - Opened DB Script
+Wed, 12 Aug 2015 10:22:08 +0000 Fill Data Phase 1 - Read DB script
+Wed, 12 Aug 2015 10:22:08 +0000 Fill Data Phase 1 - There are 284 Statements in the DB script
+Wed, 12 Aug 2015 10:22:47 +0000 Fill Data Phase 1 - Done
+Wed, 12 Aug 2015 10:22:47 +0000 Fill Data Phase 1 - No Errors
+Wed, 12 Aug 2015 10:22:50 +0000 Fill Data Phase 2 - Starting
+Wed, 12 Aug 2015 10:22:50 +0000 Fill Data Phase 2 - Connected to the DB Server
+Wed, 12 Aug 2015 10:22:50 +0000 Fill Data Phase 2 - Selected the DB
+Wed, 12 Aug 2015 10:22:50 +0000 Fill Data Phase 2 - Reading DB Script
+Wed, 12 Aug 2015 10:22:50 +0000 Fill Data Phase 2 - Opened DB Script
+Wed, 12 Aug 2015 10:22:50 +0000 Fill Data Phase 2 - Read DB script
+Wed, 12 Aug 2015 10:22:50 +0000 Fill Data Phase 2 - There are 127 Statements in the DB script
+Wed, 12 Aug 2015 10:22:53 +0000 Fill Data Phase 1 - Connected to the DB Server
+Wed, 12 Aug 2015 10:22:53 +0000 Fill Data Phase 2 - Done
+Wed, 12 Aug 2015 10:22:53 +0000 Fill Data Phase 2 - No Errors
+Wed, 12 Aug 2015 10:22:56 +0000 Create DB user - Starting
+Wed, 12 Aug 2015 10:22:56 +0000 Create DB user - Done
+Wed, 12 Aug 2015 10:22:56 +0000 Create DB user - No Errors
+Wed, 12 Aug 2015 10:22:59 +0000 Create OrangeHRM user - Starting
+Wed, 12 Aug 2015 10:23:00 +0000 Create OrangeHRM user - Done
+Wed, 12 Aug 2015 10:23:00 +0000 Create OrangeHRM user - No Errors
+Wed, 12 Aug 2015 10:23:03 +0000 Write Conf - Starting
+Wed, 12 Aug 2015 10:23:03 +0000 Write Conf - Done
+Wed, 12 Aug 2015 10:23:03 +0000 Write Conf - No Errors

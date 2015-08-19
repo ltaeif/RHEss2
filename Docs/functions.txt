@@ -1,0 +1,15 @@
+CREATE DEFINER=`root`@`localhost` FUNCTION `dashboard_get_subunit_parent_id`(
+                  id INT
+                ) RETURNS int(11)
+    READS SQL DATA
+    DETERMINISTIC
+BEGIN
+                SELECT (SELECT t2.id 
+                               FROM ohrm_subunit t2 
+                               WHERE t2.lft < t1.lft AND t2.rgt > t1.rgt    
+                               ORDER BY t2.rgt-t1.rgt ASC LIMIT 1) INTO @parent
+                FROM ohrm_subunit t1 WHERE t1.id = id;
+
+                RETURN @parent;
+
+                END
